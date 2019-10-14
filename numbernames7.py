@@ -9,15 +9,15 @@ d = ['hundred','thousand']
 
 def foo(i):
     if i in a3.iterkeys():
-        print a3.get(i)
+        print (a3.get(i))
     else:
         if i in b.iterkeys():
-          print b.get(i)
+          print (b.get(i))
 
 
 if i < 1000:
         if i/1000 in a1.iterkeys():
-            print a1.get(i/1000)+' '+d[1],
+            print (a1.get(i/1000)+' '+d[1]),
 
 else:
     if i/1000 in a2.iterkeys():
